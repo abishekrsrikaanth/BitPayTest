@@ -1,0 +1,21 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/abishekrsrikaanth/php-bitpay-client"
+        }
+    ],
+    "require": {
+        "bitpay/php-client": "dev-master"
+    }
+}
