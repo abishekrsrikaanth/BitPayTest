@@ -153,8 +153,8 @@ class BitPayClient
             echo 'Reached Catch with error . ' . $e->getMessage();
             $request  = $this->_client->getRequest();
             $response = $this->_client->getResponse();
-            echo "Request: " . (string)$request . PHP_EOL . PHP_EOL . PHP_EOL;
-            echo "Response: " . (string)$response . PHP_EOL . PHP_EOL;
+            echo "Request: " . PHP_EOL . (string)$request . PHP_EOL . PHP_EOL . PHP_EOL;
+            echo "Response: " . PHP_EOL . (string)$response . PHP_EOL . PHP_EOL;
             exit(1); // We do not want to continue if something went wrong
         }
     }
